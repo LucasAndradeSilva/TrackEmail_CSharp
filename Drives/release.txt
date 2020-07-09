@@ -1,0 +1,81 @@
+﻿Release Information
+Microsoft Drivers 5.8 for PHP for SQL Server
+Jan 2020
+
+
+INTRODUCTION
+------------
+This file contains late-breaking or other important information
+that supplements the Microsoft Drivers for PHP for SQL Server
+documentation. You should read this file completely before 
+installing the PHP driver.
+
+Your feedback is very important to us and we will strive
+to respond to your feedback in a timely manner. For information
+about providing feedback by using the PHP driver blogs and online
+forums, see the Microsoft Drivers for PHP for SQL Server page at
+https://docs.microsoft.com/en-us/sql/connect/php/microsoft-php-driver-for-sql-server
+
+INSTALLATION
+------------
+Instructions for installing the PHP driver are located in SQLSRV_Readme.htm.
+Refer to that file for information about installing the PHP driver.
+
+SUPPORTED OPERATING SYSTEMS
+---------------------------
+The Microsoft Drivers for PHP for SQL Server supports the following operating systems:
+	o Windows Server 2019
+	o Windows Server 2016
+	o Windows Server 2012
+	o Windows Server 2012 R2
+	o Windows 8.1
+	o Windows 10
+	
+
+The list above is an example of some of the supported operating systems.
+
+RELEASE CONTENTS
+----------------
+The Microsoft Drivers for PHP for SQL Server executable zip file
+unpacks the following files in the specified locations, relative
+to the selected installation directory:
+
+<installation directory>\Microsoft DRIVERS 5.8 FOR PHP FOR MICROSOFT SQL SERVER - Standalone (free) Use Terms.rtf
+<installation directory>\release.txt
+<installation directory>\SQLSRV_Readme.htm
+<installation directory>\SQLSRV_ThirdPartyNotices.rtf
+<installation directory>\php_pdo_sqlsrv_74_nts_x86.dll
+<installation directory>\php_pdo_sqlsrv_74_nts_x64.dll
+<installation directory>\php_pdo_sqlsrv_74_ts_x86.dll
+<installation directory>\php_pdo_sqlsrv_74_ts_x64.dll
+<installation directory>\php_sqlsrv_74_nts_x86.dll
+<installation directory>\php_sqlsrv_74_nts_x64.dll
+<installation directory>\php_sqlsrv_74_ts_x86.dll
+<installation directory>\php_sqlsrv_74_ts_x64.dll
+<installation directory>\php_pdo_sqlsrv_73_nts_x86.dll
+<installation directory>\php_pdo_sqlsrv_73_nts_x64.dll
+<installation directory>\php_pdo_sqlsrv_73_ts_x86.dll
+<installation directory>\php_pdo_sqlsrv_73_ts_x64.dll
+<installation directory>\php_sqlsrv_73_nts_x86.dll
+<installation directory>\php_sqlsrv_73_nts_x64.dll
+<installation directory>\php_sqlsrv_73_ts_x86.dll
+<installation directory>\php_sqlsrv_73_ts_x64.dll
+<installation directory>\php_pdo_sqlsrv_72_nts_x86.dll
+<installation directory>\php_pdo_sqlsrv_72_nts_x64.dll
+<installation directory>\php_pdo_sqlsrv_72_ts_x86.dll
+<installation directory>\php_pdo_sqlsrv_72_ts_x64.dll
+<installation directory>\php_sqlsrv_72_nts_x86.dll
+<installation directory>\php_sqlsrv_72_nts_x64.dll
+<installation directory>\php_sqlsrv_72_ts_x86.dll
+<installation directory>\php_sqlsrv_72_ts_x64.dll
+
+CHANGE LIST
+-----------
+Please visit the project on GitHub for the details of all the changes since last release 5.6:
+https://github.com/microsoft/msphpsql/blob/master/CHANGELOG.md
+
+KNOWN ISSUES
+------------
+Please visit the project on GitHub to view outstanding issues and report new ones: 
+https://github.com/microsoft/msphpsql/issues
+

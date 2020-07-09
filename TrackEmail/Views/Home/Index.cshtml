@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<link href="~/css/jquery-ui.css" rel="stylesheet" />
+
+<h2>Gerar Pixel Track</h2>
+
+<div class="col s12">
+    <p><input id="name" name="name" placeholder="Nome" type="text" value="Lucas"></p>
+    <p><input id="email" name="email" placeholder="Email" type="text" value="Lucas.andrade@visaogrupo.com.br"></p>
+    <p><input id="subject" name="subject" placeholder="Titulo" type="text" value="Teste Track"></p>
+    <p><button class="btn waves-effect waves-light" onclick="gerarTrack();">Gerar</button></p>
+    <p></p>
+</div>
+
+<h4>Seu código de Rastreio</h4>
+<div class="jumbotron">    
+    <a id="codTrack" class=" col s12"></a> 
+</div>
+
+
+<script src="~/js/jquery.min.js"></script>
+<script>
+    function gerarTrack() {
+        var dt = new Date();
+        var date = dt.getDate() + "_" + (dt.getMonth() + 1) + "_" + dt.getFullYear();
+        var url = "<xmp><img src='https://localhost:44389/Track/name=" + $('#name').val() + "&subject=" + $('#subject').val() + "&email=" + $('#email').val() + "&date=" + date + "' width='1' height='1' border='0' /></xmp>";
+        var caminho = "https://localhost:44389/Track/name=" + $('#name').val() + "&subject=" + $('#subject').val() + "&email=" + $('#email').val() + "&date=" + date;
+        var link = "<a href='"+caminho+"' class='btn green'>Link</a>";
+        $('#codTrack').append(url);
+        $('#codTrack').append(link);
+    }
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
